@@ -54,16 +54,16 @@ def index():
                         "tts": f"Поздравляю! <speaker audio=marusia-sounds/game-win-1> Вы {skill.prof[class_]}! "
                                f"Не хотите подготовиться к Вездек`оду?",
                         "end_session": False,
-                        "commands": [
-                            {
-                                "type": "BigImage",
-                                "image_id": 457239018,
-                            },
-                            {
-                                "type": "MiniApp",
-                                "url": "[https://vk.com/app7923597]"
-                            }
-                        ]
+#                         "commands": [
+#                             {
+#                                 "type": "BigImage",
+#                                 "image_id": 457239018,
+#                             },
+#                             {
+#                                 "type": "MiniApp",
+#                                 "url": "[https://vk.com/app7923597]"
+#                             }
+#                         ]
                     }
                 }
             )
