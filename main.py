@@ -8,18 +8,6 @@ from nonbinary import Skill
 app = Flask(__name__)
 CORS(app)
 
-TEAM_POSSIBLES = [
-    "не бинарное дерево",
-    "небинарное дерево"
-]
-
-VEZDE_POSSIBLES = [
-    "везде код",
-    "вездекод",
-    "везде кот"
-]
-
-
 skill = Skill()
 test = skill.test()
 
